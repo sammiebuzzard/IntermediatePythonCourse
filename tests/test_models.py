@@ -30,7 +30,7 @@ def test_daily_mean_integers():
     npt.assert_array_equal(daily_mean(test_input), test_result)
 
 
-def test_daily_mean_integers():
+def test_daily_max_integers():
     """Test that mean function works for an array of positive integers."""
     from inflammation.models import daily_max
 
